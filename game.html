@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>bubato</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <script type="text/javascript" src="game.js"></script>
+</head>
+<body onload="checkScreen()" onresize="checkScreen()"  >    
+    <div id="end" class="jumbotron" onclick="location='index.html';">sgdgsg
+    </div>
+    <audio src="sound/background.mp3" loop autoplay id="sound"></audio>
+    <audio src="sound/windy.mp3" loop autoplay></audio>
+    <div id="container">
+       <div style="position: fixed;width: 100%;height: 60px;background: black ;opacity: 1" id="losthpboss">
+           <div id="hpboss">
+               <div id="valuehpboss"></div>
+           </div>
+           <a id="infoboss">
+               <img src="image/skill0.png" class="skill" style="height: 30px;width: 30px" id="skill0" onmouseover="show(0)" onmouseleave="hide()">
+               <img src="image/skill1.png" class="skill" id="skill1" onmouseover="show(1)" onmouseleave="hide()">
+               <img src="image/skill2.png" class="skill" id="skill2" onmouseover="show(2)" onmouseleave="hide()">
+               <img src="image/skill3.png" class="skill" id="skill3" onmouseover="show(3)" onmouseleave="hide()">
+               <img src="image/skill4.png" class="skill" id="skill4" onmouseover="show(4)" onmouseleave="hide()">
+               <div class="inline" id="damageboss"></div>
+               <div class="inline" id="armorboss"></div>
+               <div class="inline" id="speedboss"></div>
+
+           </a>
+           <div id="infos">
+               <div id="nameskill"></div>
+               <div id="infoskill"></div>
+               <div id="cooldown"></div>
+           </div>
+       </div>
+       <div style="position: fixed;width: 100%;height: 250px;background: black ;opacity: 0.8 ; top:93%;display: inline;z-index: 9999999" id="losthpboss">
+           <div id="hpbubato">
+               <a id="valuehpbubato"></a>
+           </div>
+           <div id="nobubato">
+               <a id="no"></a>
+           </div>           
+           <a id="info">
+               <img src="image/skillviolet.png" class="skillbubato" id="skillv" onmouseover="show(5)" onmouseleave="hide()">
+               <div class="inline" id="name"></div>
+               <div class="inline" id="damage"></div>
+               <div class="inline" id="armor"></div>
+               <div class="inline" id="speedbullet"></div>
+               <div class="inline" id="timefight"></div>
+           </a>
+       </div>
+
+    <canvas id="canvas"></canvas>   
+</div>    
+</body>
+</html>

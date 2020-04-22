@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<style type="text/css">
+		body{
+			background:url('image/background.png');
+			background-size: 1200%;
+		}
+		header{
+			background:black;
+			opacity: 0.6;
+			color: #dee08d;
+			font-size: 400%;
+			font-family: Impact;
+		}
+		button{
+			width: 20%;
+			margin-top: 2%;
+			height: 20%;
+			font-size: 300%;
+			font-family: impact;
+		}
+	</style>
+	<script type="text/javascript">
+		
+	</script>
+</head>
+<body class="container" style="text-align: center">
+	<audio src="sound/menu.mp3" autoplay loop></audio>
+	<img onclick="document.getElementById('im').style.display='none';"id="im"src="image/howtoplay.png" height="100%" width="100%;" style="position: fixed;margin-left: -50%;z-index: 90;top:0%;display: none;transition: 1s;"> 
+	<header style="margin-top: 10%" >BUBATO 4.0</header>
+	<div style="margin-top: 2%; text-align: center;margin: 0 auto; height:500px;background-image: url('image/backgroundmenu.png');background-size: cover;">
+        <button class="btn  btn-warning" onclick="document.getElementById('im').style.display='inline';"> HOW TO PLAY</button>
+        <button class="btn btn-danger" style="border-radius: 50%;height: 30%;width: 30%;font-size: 300%;color: #dee08d" onclick="location='game.html'"> PLAY</button>
+        <button class="btn btn-success"> My Web Demo</button>
+    </div>   
+
+</body>
+</html>

@@ -1,0 +1,155 @@
+img[src*="000webhost"]{	display: none !important;}
+#canvas{
+	width: 100%;
+	height: 100%;
+	cursor: none;
+}
+#losthpboss{
+	border-radius:8px;
+}
+#hpboss{
+    width: 50em;
+    background: red;
+    height: 40px;
+    opacity: 1;
+    text-align: center;
+    transition: 0.5s;
+    border-radius:8px;
+    margin-top: 10px;
+}
+#valuehpboss{
+	font-size: 200%;
+    -moz-user-select: none; 
+    -ms-user-select: none;
+    -khtml-user-select: none; 
+    -webkit-user-select: none;
+    -webkit-touch-callout: none; 
+    font-family: impact;
+    color: white;
+    transition: 0.25s;
+    border-radius:8px;
+}
+#hpbubato{
+    width: 300px;
+    background: red;
+    height: 25px;
+    opacity: 1;
+    text-align: center;
+    border-radius:2px;
+}
+#nobubato{
+    width: 300px;
+    background: #c0c0c0;
+    height: 25px;
+    opacity: 1;
+    text-align: center;
+    border-radius:2px;
+    transition: 0.4s;
+}
+#valuehpbubato{
+	font-size: 100%;
+	width: 50em;
+    -moz-user-select: none; 
+    -ms-user-select: none;
+    -khtml-user-select: none; 
+    -webkit-user-select: none;
+    -webkit-touch-callout: none; 
+    font-family: impact;
+    color: white;
+    border-radius:2px;
+}
+#info{
+	margin-top: -50px;
+    float: right;
+    -moz-user-select: none; 
+    -ms-user-select: none;
+    -khtml-user-select: none; 
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+#name{
+	color: white;
+	font-family: tahoma;
+	font-size: 140%;
+}
+#infoboss{
+	margin-top: -20px;
+    float: right;
+    -moz-user-select: none; 
+    -ms-user-select: none;
+    -khtml-user-select: none; 
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+.inline{
+	display: inline;
+	color:#f2fa63;
+	font-family: impact;
+	margin-right: 20px;
+}
+.skill{
+	height: 40px;
+	width: 40px;
+	margin: -30px 30px 0 0;
+	opacity: 1;
+}
+#infos{
+	position: absolute;
+	height: 220px;
+	width: 400px;
+	background: black;
+	right:200px;
+	opacity: 0.8;
+	display: none;
+	
+}
+#infoskill{
+	color: white;
+	margin-left: 10px;
+}
+#nameskill{
+	font-size: 160%;
+	color: red;
+	margin-left: 10px;
+}
+#cooldown{
+	font-size: 120%;
+	color: blue;
+	margin-left: 10px;
+}
+#skillv{
+	height: 40px;
+	width: 40px;
+	margin: 0 30px 0 0;
+	opacity: 1;
+}
+#no{
+	font-size: 100%;
+	width: 30em;
+    -moz-user-select: none; 
+    -ms-user-select: none;
+    -khtml-user-select: none; 
+    -webkit-user-select: none;
+    -webkit-touch-callout: none; 
+    font-family: impact;
+    color: white;
+    border-radius:2px;
+    transition: 0.4s;
+}
+body{
+	background-image: url("image/f11.png");
+	background-size: cover;
+}
+#end{
+	position: fixed;
+	z-index: 20;
+	font-size: 800%;
+	color: red;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	background:black;
+	opacity: 0.7;
+	font-family: impact;
+    display: none;
+}
